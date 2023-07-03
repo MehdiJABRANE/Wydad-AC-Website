@@ -1,0 +1,164 @@
+.upcoming-match{
+    display: block;
+    width: 420px;
+    height: 296px;
+    padding: 0 10px 0 10px;
+}
+.upcoming-match-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 15px 15px;
+}
+.upcoming-match-header p{
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+.upcoming-match-header a{
+    text-decoration: none;
+    color: black;
+}
+.next-fixture{
+    font-family: "Avant-Garde-DemiBold";
+}
+.view-all-fixtures{
+    font-family: "Avant-Garde-Light";
+    font-size: 13px;
+}
+.upcoming-match-header{
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(198, 1, 31);
+}
+.upcoming-match-header{
+    height: 22px;
+}
+.upcoming-match-details{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 217px;
+}
+.upcoming-match-competition{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.upcoming-match-competition div{
+    width:60px;
+    height: 80px;
+    position: relative;
+}
+.upcoming-match-competition div span{
+    display: inline-block;
+    background: url(../IMAGES/marp.png) no-repeat;
+    background-size: contain;
+    width: 92px;
+    height: 75px;
+}
+.match-date{
+    margin-right: 5px;
+}
+.upcoming-match-place, .upcoming-match-time{
+    text-align: center;
+}
+.upcoming-match-place .match-stadium{
+    font-family: "Avant-Garde-Light";
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+}
+.upcoming-match-place .match-date{
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 12px;
+}
+.upcoming-match-time{
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 12px;
+}
+.upcoming-match-teams{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-team{
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+    width: 145px;
+}
+.home-team-name{
+    padding-right: 5px;
+    font-family: "Avant-Garde-DemiBold";
+}
+.home-team-badge{
+    background: url(../IMAGES/wydad_logo\ \(Custom\)\ \(2\).png) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+.away-team-badge{
+    background: url(../IMAGES/raja.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+.match-time{
+    display: flex;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 90px;
+    background-color: rgb(235, 235, 235);
+}
+.ko{
+    padding-right: 5px;
+    font-family: "Avant-Garde-DemiBold";
+}
+.ko-time{
+    font-family: "Avant-Garde-Light";
+    font-size: 14px;
+    vertical-align: middle;
+}
+.away-team{
+    padding-left: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    width: 145px;
+}
+.away-team-name{
+    font-family: "Avant-Garde-DemiBold";
+}
+.upcoming-match-see-details{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 2px;
+}
+.upcoming-match-see-details a{
+    padding: 10px 20px 10px 20px ;
+    text-decoration: none;
+    color: rgb(198, 1, 31);
+    box-shadow: 0 2px 7px rgba(0,0,0,.15);
+    font-family: "Avant-Garde-DemiBold";
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.15s ease 0s;
+}
+.upcoming-match-see-details a:hover{
+    background-color: rgb(198, 1, 31);
+    color: white;
+}

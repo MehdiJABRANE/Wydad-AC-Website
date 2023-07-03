@@ -1,0 +1,78 @@
+.ad-container-1{
+    height: 365px; 
+    display: flex; 
+    justify-content: flex-end; 
+    position: relative;
+    margin-bottom: 60px;
+}
+.ad-text{
+    display: flex; 
+    position: absolute; 
+    justify-content: center;
+    padding-left: 50px;
+    left: 0; 
+    top: 0; 
+    width: 850px; 
+    height: 100%; 
+    background-image: linear-gradient(50deg, rgba(6, 23, 41, 0.7) 65% , transparent 50%); 
+    background-size: 100% 100%;
+    flex-direction: column;
+    transform: all 0.15s ease 0s;
+}
+.ad-pic{
+    background: url(../IMAGES/you-deal-3xtkv4deqhE-unsplash.jpg) no-repeat; 
+    background-size: cover; 
+    width: 100%; 
+    display: block; 
+    background-color: black;
+    position: relative;
+    z-index: -2;
+}
+.casawe-logo{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: url(../IMAGES/We\ casablanca\ نحن\ كازا.png) no-repeat center;  
+    display: block;
+    background-size: cover; 
+}
+.ad-text a{
+    color: white;
+    width: 500px;
+}
+.ad-text a h3:nth-child(1){
+    font-family: "Avant-Garde";
+    font-size: 30px;
+    width: 500px;
+}
+.ad-text a p{
+    font-family: "Avant-Garde-Light";
+    font-size: 14px;
+    color: rgb(169, 167, 167);
+}
+.click-here{
+    font-family: "Avant-Garde-DemiBold";
+    color: rgb(43, 129, 214);
+    font-size: 15px;
+    padding-left: 40px;
+}
+.click-here span{
+    background: url(../IMAGES/Forward\ Button_64px.png) no-repeat center;
+    background-size: contain;
+    left: 0;
+    top: 3px;
+    width:32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 5px;
+    position: absolute;
+}
+.ad-text a:hover{
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+.click-here-container{
+    position: relative;
+}

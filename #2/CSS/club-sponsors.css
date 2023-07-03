@@ -1,0 +1,21 @@
+.club-sponsors{
+    display: flex;
+    flex-direction: column;
+}
+.club-logo{
+    margin-top: 40px;
+    position: relative;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(198, 1, 31);
+}
+.club-logo img{
+    position: absolute;
+    left: 45.5%;
+    top: -70px;
+    width: 140px;
+    
+}
+.sponsors-row-1{
+    
+}

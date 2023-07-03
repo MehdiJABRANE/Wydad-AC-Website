@@ -1,0 +1,180 @@
+.team-matches{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.latest-result{
+    font-family: "Avant-Garde-DemiBold";
+}
+.view-all-results{
+    font-family: "Avant-Garde-Light";
+    font-size: 13px;
+}
+.latest-match{
+    width: 420px;
+    height: 296px;
+    padding: 0 10px 0 10px;
+}
+.latest-match{
+    display: block;
+    width: 420px;
+    height: 296px;
+    padding: 0 10px 0 10px;
+}
+.latest-match-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 15px 15px;
+}
+.latest-match-header p{
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+.latest-match-header a{
+    text-decoration: none;
+    color: black;
+}
+.latest-match-header{
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(198, 1, 31);
+}
+.latest-match-header{
+    height: 22px;
+}
+.latest-match-details{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 217px;
+}
+.latest-match-competition{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+.latest-match-competition div{
+    width:60px;
+    height: 80px;
+    position: relative;
+}
+.latest-match-competition div span{
+    position: absolute;
+    right: -13px;
+    top: 0;
+    display: flex;
+    background: url(../IMAGES/BotolaPro.png) no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 75px;
+}
+.latest-match-place{
+    text-align: center;
+}
+.latest-match-place .latest-match-stadium{
+    font-family: "Avant-Garde-Light";
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+}
+.latest-match-place .latest-match-date{
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 12px;
+    padding-right: 5px;
+}
+.latest-match-see-details{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.latest-match-see-details a{
+    padding: 10px 20px 10px 20px ;
+    text-decoration: none;
+    color: rgb(198, 1, 31);
+    font-family: "Avant-Garde-DemiBold";
+    box-shadow: 0 2px 7px rgba(0,0,0,.15);
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.15s ease 0s;
+}
+.latest-match-see-details a:hover{
+    background-color: rgb(198, 1, 31);
+    color: white;
+}
+.latest-match-teams{
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.latest-match-home-team{
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+    width: 145px;
+}
+.latest-match-home-team-name{
+    padding-right: 5px;
+    font-family: "Avant-Garde-DemiBold";
+}
+.latest-match-home-team-badge{
+    background: url(../IMAGES/mas.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+.latest-match-away-team-badge{
+    background: url(../IMAGES/wydad_logo\ \(Custom\)\ \(2\).png) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+.latest-match-away-team{
+    padding-left: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    width: 145px;
+}
+.latest-match-away-team-name{
+    font-family: "Avant-Garde-DemiBold";
+}
+.latest-match-time{
+    display: flex;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 90px;
+    background-color: rgb(22, 22, 22);
+}
+.latest-match-home-goals{
+    width: 50%;
+    height: 100%;
+    font-family: "Avant-Garde-DemiBold";
+    vertical-align: middle;
+    color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(85, 85, 85);
+}
+.latest-match-away-goals{
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-family: "Avant-Garde-DemiBold";
+    vertical-align: middle;
+}

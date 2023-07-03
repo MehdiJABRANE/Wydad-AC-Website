@@ -1,0 +1,89 @@
+.league-standing{
+    width: 420px;
+    height: 296px;
+    padding: 0 10px 0 10px;
+}
+.league-standing-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 15px 15px;
+}
+.league-standing-header p{
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+.league-standing-header a, .upcoming-match-header a, .latest-match-header a{
+    text-decoration: none;
+    color: black;
+}
+.league-standing-table{
+    width: 100%;
+}
+.league-standing table{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px 0px;
+    border-spacing: 0;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 14px;
+    
+}
+.league-standing table th{
+    background-color: rgb(235, 235, 235);
+    padding: 9px 0 9px;
+}
+.league-standing table th:nth-child(2){
+    text-align: left;
+}
+.league-standing table td{
+    height: 65px;
+}
+.r1 .table-standing-club span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align:middle;
+    background: url(../IMAGES/ASFAR_\(football_club\)_logo.png) no-repeat;
+    background-size: contain;
+}
+.r1 .table-standing-club div, .r2 .table-standing-club div, .r3 .table-standing-club div{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.r1 .table-standing-cell,.r1 .table-standing-position,.r1 .table-standing-points, .r2 .table-standing-cell,.r2 .table-standing-position,.r2 .table-standing-points, .r3 .table-standing-cell,.r3 .table-standing-position,.r3 .table-standing-points{
+    text-align: center;
+    vertical-align:middle;
+}
+.r2 .table-standing-club span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align:middle;
+    background: url(../IMAGES/wydad_logo\ \(Custom\)\ \(2\).png) no-repeat;
+    background-size: contain;
+}
+.r3 .table-standing-club span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align:middle;
+    background: url(../IMAGES/fus.png) no-repeat;
+    background-size: contain;
+}
+.r2{
+    background-color: rgb(198, 1, 31);
+    color: white;
+}
+.league-name{
+    font-family: "Avant-Garde-DemiBold";
+}
+.view-all{
+    font-family: "Avant-Garde-Light";
+    font-size: 13px;
+}
+.league-standing-header{
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(198, 1, 31);
+}

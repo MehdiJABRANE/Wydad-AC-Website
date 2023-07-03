@@ -1,0 +1,81 @@
+.third-kit-pic{
+    height: 80%;
+    background-color: rgb(242, 242, 242);
+}
+.third-kit-pic span{
+    height: 100%;
+    width: 100%;
+    background: url(../KITS-IMAGES/black-1.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    transition: all 0.25s ease 0s;
+}
+.third-kit-pic span:hover{
+    background: url(../KITS-IMAGES/black-2.jpg) no-repeat center;
+    background-size: contain;
+}
+.third-kit-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+.third-kit-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.third-kit-price a {
+    display: inline;
+}
+.third-kit-price span{
+    font-family: "Avant-Garde";
+    font-size: 18px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-top-left-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(235, 235, 235);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: rgb(235, 235, 235);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(235, 235, 235);
+    border-bottom-left-radius: 3px;
+}
+.third-kit-price a h3{
+    display: inline-block;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 14px ;
+    padding-bottom: 14px;
+    margin-right: 21px;
+    background-color: rgb(198, 1, 31);
+    color: white;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 14px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: all 0.15s ease 0s;
+}
+.third-kit-price a h3:hover{
+    background-color: rgb(251, 186, 0);
+    color: black;
+}
+.third-kit-description{
+    text-align: center;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 14px;
+}

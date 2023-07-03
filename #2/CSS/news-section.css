@@ -1,0 +1,67 @@
+.home-22{
+    height: 630px;
+    display: flex;
+    align-items: center;
+    background: url(../IMAGES/nyo.jpg) no-repeat center;
+    background-size: cover;
+    justify-content: center;
+}
+.content{
+    width: 1092px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    color: white;
+}
+.content h2{
+    font-family: "Avant-Garde";
+}
+.news-div a{
+    position: absolute;
+    color: white;
+    font-family: "Avant-Garde";
+    background-color: black;
+    display: inline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    right: 30px;
+    bottom: 25px;
+    border-radius: 8px;
+    margin-left: 500px;
+    transition: transform 0.2s;
+}
+.news-type{
+    font-size: 20px;
+    background-color: rgb(198, 1, 31);
+    width: auto;
+    display: inline;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.news-header{
+    display: block;
+    font-size: 51px;
+    width: 625px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.news-div{
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    width: 800px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.news-div a:hover{
+    transform: scale(1.05,1.05);
+}

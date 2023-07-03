@@ -1,0 +1,142 @@
+.header{
+    background-color: rgb(198, 1, 31);
+    padding-left: 20px;
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(236, 172, 182); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    font-family: "Avant-Garde-Light";
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 200;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.left-header{
+    position: relative;
+    margin-right: 120px;
+}
+.left-header img{
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    width: 180px;
+}
+.nav-left-content{
+    padding-left: 0;
+}
+.nav-left-content .home{
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.home a{
+    color: black;
+    transition: all 0.15s ease 0s;
+}
+.fixtures a{
+    color: white;
+    transition: all 0.15s ease 0s;
+}
+.club a{
+    color: white;
+    transition: all 0.15s ease 0s;
+}
+.shop a{
+    color: white;
+    transition: all 0.15s ease 0s;
+}
+.about a {
+    color:white;
+    transition: all 0.15s ease 0s;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+    margin-left: 80px;
+    cursor: pointer;
+    position: relative;
+}
+.authetication-place{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.authetication-place a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+.authetication-place a img{
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+}
+.nav-left-content li{
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.15s ease 0s;
+    z-index: 1;
+    position: relative;
+}
+.sponsors{
+    display: flex;
+    right: 0;
+}
+.sponsors p{
+    padding-top: 7px;
+    color: white;
+    font-family: "Avant-Garde-Light";
+}
+.sponsors .img-1{
+    width: 100px;
+}
+.img-2{
+    width: 100px;
+    height:28px;
+    padding-top: 20px;
+}
+.animation{
+    position: absolute;
+    height: 60px;
+    top: 16px;
+    z-index: -1;
+    background-color: white;
+    width: 86.45px;
+    left: 0px;
+    border-radius: 8px;
+    transition: all 0.15s ease 0s;
+} 
+li.home:hover ~ .animation {
+    left: 0px;
+}
+li.club:hover ~ .animation{
+    width: 78;
+    left: 87px;
+    color: black;
+}
+li.fixtures:hover ~ .animation{
+    width: 96px;
+    left: 165px;
+    color: black;
+}
+li.shop:hover ~ .animation{
+    width: 80px;
+    left: 261px;
+    color: black;
+}
+li.about a:hover ~ .animation{
+    width: 88px;
+    left: 341px;
+    color: black;
+}

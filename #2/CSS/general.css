@@ -1,0 +1,43 @@
+body{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-top: 85px;
+    background-color: white;
+    padding-bottom: 1000px;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "AlmaroseBold";
+    src: url(../FONTS/Almarose-Semibold.otf);
+}
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../FONTS/GothamMedium.ttf);
+}
+@font-face {
+    font-family: "PosteramaSemiBold";
+    src: url(../FONTS/Posterama\ 1919\ Semibold.otf);
+}
+@font-face {
+    font-family: "AlmaroseLight";
+    src: url(../FONTS/Almarose-Light.otf);
+}
+@font-face {
+    font-family: "Avant-Garde";
+    src: url(../FONTS/1.otf);
+}
+@font-face {
+    font-family: "Avant-Garde-Light";
+    src: url(../FONTS/3.otf);
+}
+@font-face {
+    font-family: "Avant-Garde-DemiBold";
+    src: url(../FONTS/4.otf);
+}
+@font-face {
+    font-family: "Casablanca";
+    src: url(../FONTS/Casablanca.ttf);
+}

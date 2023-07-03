@@ -1,0 +1,137 @@
+.shop-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.shop-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.shop-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+
+}
+.home-kit, .away-kit, .third-kit{
+    width: 315px;
+    height: 490px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px 0px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+}
+.home-kit-pic{
+    height: 80%;
+    background-color: rgb(242, 242, 242);
+}
+.home-kit-pic span{
+    height: 100%;
+    width: 100%;
+    background: url(../KITS-IMAGES/red-1.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    transition: all 0.25s ease 0s;
+}
+.home-kit-pic span:hover{
+    background: url(../KITS-IMAGES/red-2.jpg) no-repeat center;
+    background-size: contain;
+}
+.home-kit-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+.home-kit-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.home-kit-price a {
+    display: inline;
+}
+.home-kit-price span{
+    font-family: "Avant-Garde";
+    font-size: 18px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-top-left-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(235, 235, 235);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: rgb(235, 235, 235);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(235, 235, 235);
+    border-bottom-left-radius: 3px;
+}
+.home-kit-price a h3{
+    display: inline-block;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 14px ;
+    padding-bottom: 14px;
+    margin-right: 21px;
+    background-color: rgb(198, 1, 31);
+    color: white;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 14px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: all 0.15s ease 0s;
+}
+.home-kit-price a h3:hover{
+    background-color: rgb(251, 186, 0);
+    color: black;
+}
+.home-kit-description{
+    text-align: center;
+    font-family: "Avant-Garde-DemiBold";
+    font-size: 14px;
+}
+
+.shop-button{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 2px;
+}
+.shop-button a{
+    padding: 15px 20px 20px 20px ;
+    text-decoration: none;
+    color: rgb(198, 1, 31);
+    box-shadow: 0 2px 7px rgba(0,0,0,.15);
+    font-family: "Avant-Garde-DemiBold";
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.15s ease 0s;
+}
+.shop-button a:hover{
+    background-color: rgb(198, 1, 31);
+    color: white;
+}
